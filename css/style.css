@@ -448,7 +448,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #838994;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
 }
 
 /* Navigation Section */
@@ -476,7 +476,8 @@ nav img {
   float: right;
   color: #838994;
   font-size: 1.04rem;
-  margin-top: 1.7rem;
+  margin-top: 1.55rem;
+  letter-spacing: 0em;
 }
 
 ul {
@@ -517,23 +518,23 @@ a:link {
   font-size: 3.1rem;
   font-weight: 300;
   text-align: center;
-  margin-top: 17.5rem;
+  margin-top: 17.2rem;
   display: block;
 }
 
 .introduction h3 {
   color: white;
-  font-size: 1.563rem;
+  font-size: 1.54rem;
   font-weight: 300;
   text-align: center;
-  margin-top: -1.25rem;
+  margin-top: -1.2rem;
   display: block;
 }
 
 .introduction .buttons {
   color: white;
   text-align: center;
-  margin-top: 1.563rem;
+  margin-top: -0.09rem;
 }
 
 button {
@@ -545,5 +546,10 @@ button {
   border-radius: 4px;
   padding: 1rem 1.5rem;
   color: white;
-  font-size: 1.125rem;
+  font-size: 1.12rem;
+}
+
+button:hover {
+  background-color: #CA4B22;
+  border-color: #CA4B22;
 }
