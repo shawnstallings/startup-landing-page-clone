@@ -445,7 +445,6 @@ div {
 }
 
 body {
-  background-color: Lightgray;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #838994;
@@ -455,7 +454,10 @@ body {
 /* Navigation Section */
 .top-navigation {
   background-color: white;
-  height: 4.375rem;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -501,3 +503,47 @@ a:link {
   color: #333333;
 } 
 
+.introduction {
+  background-image: url("images/first-background.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
+
+.introduction h1 {
+  color: white;
+  font-size: 3.1rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 17.5rem;
+  display: block;
+}
+
+.introduction h3 {
+  color: white;
+  font-size: 1.563rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: -1.25rem;
+  display: block;
+}
+
+.introduction .buttons {
+  color: white;
+  text-align: center;
+  margin-top: 1.563rem;
+}
+
+button {
+  width: 9.688rem;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 1.125rem;
+}
