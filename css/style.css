@@ -425,3 +425,79 @@ td,
 th {
   padding: 0;
 }
+
+
+
+
+
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div {
+  border: 0px solid blue;
+}
+
+body {
+  background-color: Lightgray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
+}
+
+/* Navigation Section */
+.top-navigation {
+  background-color: white;
+  height: 4.375rem;
+}
+
+.top-navigation > .content {
+  padding: 0 0.938rem;
+  width: 60%;
+  height: 4.375rem;
+  margin: 0 auto;
+}
+
+nav img {
+  float: left;
+  margin: 15px 0px 0px 0px;
+}
+
+.top-navigation .links {
+  float: right;
+  color: #838994;
+  font-size: 1.04rem;
+  margin-top: 1.7rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 1.563rem;
+}
+
+.top-navigation .links .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+} 
+
