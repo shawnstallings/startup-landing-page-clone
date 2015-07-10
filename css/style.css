@@ -553,3 +553,34 @@ button:hover {
   background-color: #CA4B22;
   border-color: #CA4B22;
 }
+
+.cases > .content {
+  width: 60%;
+  margin: 0 auto;
+  }
+
+.cases h2 {
+  color: #000000;
+  font-size: 2.73rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 7.5rem;
+  display: block;
+}
+
+.cases .devices > li {
+  width: 33.333333%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  /* styles to assist with debugging */
+  border: 0px solid black;
+  box-sizing: border-box;
+}
+
+.cases .devices h3 {
+  text-align: center;
+  font-size: 1.563rem;
+  font-weight: 400;
+  color: #000000;
+}
