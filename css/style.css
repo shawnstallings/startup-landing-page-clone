@@ -427,10 +427,6 @@ th {
 }
 
 
-
-
-
-
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -438,10 +434,6 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-}
-
-div {
-  border: 0px solid blue;
 }
 
 body {
@@ -635,3 +627,4 @@ button:hover {
   margin: -0.3rem 5px 0.2rem;
   box-sizing: border-box;
 }
+
